@@ -1,19 +1,20 @@
 body {
   margin: 0;
-  /* background: radial-gradient(
-    circle,
-    rgb(132, 21, 89) 0%,
-    hsla(322, 76%, 5%, 1) 100%
-  ); */
   font-family: "Karla", sans-serif;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 1rem;
-  background: #000;
+  background-image: url("Images/aditya-vyas-5qUJfO4NU4o-unsplash.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,12 +23,12 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-}
+} */
 
 .bg {
-  background-image: url("Images/aditya-vyas-5qUJfO4NU4o-unsplash.jpeg");
+  /* background-image: url("Images/aditya-vyas-5qUJfO4NU4o-unsplash.jpeg"); */
   /* height: inherit; */
-  background-size: 100%;
+  /* background-size: 100%;
   background-repeat: no-repeat;
   object-fit: contain;
   top: 0;
@@ -38,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  z-index: -1;
+  z-index: -1; */
 }
 
 .card {
